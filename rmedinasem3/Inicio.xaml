@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rmedinasem3.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Inicio" FontSize="24" HorizontalTextAlignment="Center" />
+            <!--colocar imagenes desde línea-->
+            <Image Source="https://sige.uisrael.edu.ec/imagenes/Logo/Logo%20UISRAEL%20vertical%202020.png"/>
+            
+            <!--Desde el ordenador en la carpeta drawable-->
+            <Image Source="estudiante.jpg" WidthRequest="100" HeightRequest="100"/>
+
+            <Entry x:Name="txtDato" Placeholder="Ingrese un dato"/>
+            <Entry x:Name="txtDatoDos" Placeholder="Ingrese dato dos" IsPassword="True"/>
+
+            <Button x:Name="btnAbri" Text="Enviar a Registro" Clicked="btnAbri_Clicked"/>
+            
+            <!--colocar imagen en un boton-->
+            <ImageButton Source=""/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
